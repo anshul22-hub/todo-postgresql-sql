@@ -4,7 +4,7 @@ const { Pool } = require('pg');
 const jwt = require("jsonwebtoken");
 
 const pool = new Pool({
-    connectionString: "postgresql://neondb_owner:npg_T4KkNMOR6AXd@ep-little-bird-angdtvi8-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+    connectionString: ""
 })
 
 const app = express();
